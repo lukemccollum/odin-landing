@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2937;
+
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+.content-left, .content-right {
+    color: white;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    height: calc (100vh - 100px);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    text-wrap: wrap;
+}
+
+.jake-pic {
+    max-width: 670px;
+    width: auto;
+    height: 90%;
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 48px;
+    font-family: bold;
+    color: #F9FAF8;
+}
+
+main p {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 31.5px;
+    margin: 30px 0;
+}
+
+.signup-btn {
+    outline:none;
+    border: none;
+    height: auto;
+    padding: 15px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.content-middle-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 20%;
+}
